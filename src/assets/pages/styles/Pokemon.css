@@ -1,0 +1,71 @@
+.pokemon{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   
+   margin-top: 6%;
+
+}
+
+.pokemon img{
+    width: 20vw;
+}
+.habilidades{
+    
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.hab{
+display: flex;
+flex-direction: row;
+
+width: 40%;
+
+justify-content: space-around;
+}
+
+.hab div{
+
+}
+ .pokemon_stats{
+
+width: 40%;
+
+}
+
+.pokemon_stat{
+  
+}
+
+.pokemon_stat_header{
+
+}
+
+.pokemon_stat_name{
+
+}
+.pokemon_stat_value{
+
+}
+.pokemon_stat_barGray{
+background-color: #F7F7F7;
+height: 25px;
+}
+
+.pokemon_stat_barProgress{
+height: 25px;
+background-color: #E6901E  ;
+width: 90%;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+body{
+ 
+}

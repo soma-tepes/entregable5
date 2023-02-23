@@ -1,0 +1,68 @@
+
+.header_red{
+height: 150px;
+background-color: #DD1A1A;
+position: relative;
+}
+
+.header_img{
+width:  min(400pc,cal(100%-20px));
+position: absolute;
+bottom: 15px;
+left: 20px;
+
+}
+
+.header_black{
+height: 50PX;
+background-color: #0C0C0C;
+position: relative;
+}
+
+.header_pokeball{
+position: absolute;
+right: 40px;
+top: -15px;
+
+background-color: rgba(255, 255, 255, 1);
+border: 10px solid black;
+width: 90px;
+aspect-ratio: 1;
+border-radius: 50%;
+}
+
+.header_pokeball::after
+{
+content: "";
+width: 50px;
+height: 50px;
+display: block;
+background-color: rgba(33, 33, 33, 1) ;
+border: 1px solid #0C0C0C;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.header_btn{
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+background-color: transparent;
+color: white;
+border: none;
+font-size: 25px;
+cursor: pointer;
+transition: background 200ms ease;
+
+}
+
+.header_btn:hover{
+    color: #DD1A1A;
+
+}
